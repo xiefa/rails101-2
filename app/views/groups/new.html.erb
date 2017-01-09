@@ -3,6 +3,9 @@
 
     <hr>
     <%= form_for @group do |f| %>
+
+    标题
+    <%= f.text_field :title %>
     <br>
     叙述
     <br>
@@ -10,5 +13,5 @@
     <br>
     <%= f.submit "Submit", :disable_with => 'Submiting...' %>
     <% end %>
-    
+
 </div>
